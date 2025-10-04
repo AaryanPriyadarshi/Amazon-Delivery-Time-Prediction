@@ -55,8 +55,8 @@ By building predictive models and analyzing the underlying drivers of delivery d
 
 | Model              | RMSE  | MAE   | R²    |
 |--------------------|-------|-------|-------|
-| Random Forest      | —     | —     | —     |
-| XGBoost Regressor  | Best  | —     | —     |
+| Random Forest      | —     | —     | Best  |
+| XGBoost Regressor  | Best  | Best  | —     |
 
 ---
 
