@@ -58,8 +58,6 @@ By building predictive models and analyzing the underlying drivers of delivery d
 | Random Forest      | —     | —     | —     |
 | XGBoost Regressor  | Best  | —     | —     |
 
-*(Replace “—” with your actual results after training.)*
-
 ---
 
 ## Key Insights
@@ -86,3 +84,17 @@ By building predictive models and analyzing the underlying drivers of delivery d
    ```python
    from google.colab import drive
    drive.mount('/content/drive')
+3. Update dataset path inside the notebook:
+   ```python
+   DATA_PATH = "/content/drive/MyDrive/Amazon Delivery Project/amazon_delivery.csv"
+4. Run all cells sequentially.
+
+Dependancies:
+   pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost shap
+
+## Conclusion
+
+This project demonstrates how data science and machine learning can be applied to real-world logistics to improve decision-making.
+By predicting delivery times accurately and understanding influencing factors, companies can streamline operations, enhance customer experience, and reduce delays effectively.
+
+
